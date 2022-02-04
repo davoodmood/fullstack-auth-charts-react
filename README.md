@@ -1,4 +1,4 @@
-# The Maltego Challenge: 
+# The Authentication/Chart Dashboard challenge: 
 
 A Challege to build an Authentication Server with NodeJS/Typescript/React. This is a 3 part challenge. 
 
