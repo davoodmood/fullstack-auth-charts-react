@@ -1,0 +1,93 @@
+[
+    {
+        "_id": "grph_1",
+        "name": "Graph 1",
+        "user": {
+            "_id": "demo"
+        },
+        "data": {
+            "nodes": [{
+                "_id": "nd_1",
+                "label": "Node 1"
+            }, {
+                "_id": "nd_2",
+                "label": "Node 2"
+            },{
+                "_id": "nd_3",
+                "label": "Node 3"
+            },{
+                "_id": "nd_4",
+                "label": "Node 4"
+            }],
+            "links": [{
+                "source": "nd_1",
+                "target": "nd_2"
+            }, {
+                "source": "nd_1",
+                "target": "nd_3"
+            }, {
+                "source": "nd_1",
+                "target": "nd_4"
+            }]
+        }
+    },     {
+        "_id": "grph_2",
+        "name": "Graph 2",
+        "user": {
+            "_id": "demo"
+        },
+        "data": {
+            "nodes": [{
+                "_id": "nd_1",
+                "label": "Node 1"
+            }, {
+                "_id": "nd_2",
+                "label": "Node 2"
+            }],
+            "links": [{
+                "source": "nd_1",
+                "target": "nd_2"
+            }]
+        }
+    },     {
+        "_id": "grph_3",
+        "name": "Graph 3",
+        "user": {
+            "_id": "demo"
+        },
+        "data": {
+            "nodes": [{
+                "_id": "nd_1",
+                "label": "Node 1"
+            }, {
+                "_id": "nd_2",
+                "label": "Node 2"
+            },{
+                "_id": "nd_3",
+                "label": "Node 3"
+            },{
+                "_id": "nd_4",
+                "label": "Node 4"
+            },{
+                "_id": "nd_5",
+                "label": "Node 5"
+            },{
+                "_id": "nd_6",
+                "label": "Node 6"
+            }],
+            "links": [{
+                "source": "nd_1",
+                "target": "nd_2"
+            }, {
+                "source": "nd_1",
+                "target": "nd_3"
+            }, {
+                "source": "nd_1",
+                "target": "nd_4"
+            }, {
+                "source": "nd_1",
+                "target": "nd_5"
+            }]
+        }
+    }
+]

@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#env
+/server/.env
+
+# production
+/server/build
+/server/dist
+
+# dependencies
+/server/node_modules
+/server/yarn.lock
+/server/package-lock.json
+
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+#docs
+/backup/
+
+# dependencies
+/react/node_modules
+/react/.pnp
+/react/.pnp.js
+/react/package-lock.json
+/react/yarn.lock
+
+# testing
+/react/coverage
+
+# next.js
+/react/.next/
+/react/out/
+/react/build
+
+
+# misc
+/react/.DS_Store
+/react/*.pem
+
+# debug
+/react/npm-debug.log*
+/react/yarn-debug.log*
+/react/yarn-error.log*
+
+# local env files
+/react/.env.local
+/react/.env.development.local
+/react/.env.test.local
+/react/.env.production.local
+
+# vercel
+/react/.vercel
+
+# typescript
+/react/*.tsbuildinfo
+/react/.gitignore

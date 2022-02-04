@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.input {
+  transition: border 0.2s ease-in-out;
+  min-width: 280px;
+  z-index: 1;
+  background-color: transparent;
+}
+.input:focus+.label,
+.input:active+.label,
+.input.filled+.label {
+  font-size: .75rem;
+  transition: all 0.2s ease-out;
+  top: -0.5rem;
+  color: #6b7280;
+  /* background-color: white; */
+}
+.label {
+  transition: all 0.2s ease-out;
+  top: 0.4rem;
+  left: 0.3rem;
+}
