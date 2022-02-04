@@ -39,7 +39,7 @@ const Home: NextPage = () => {
      }
     )();
     return () => controller?.abort();
-  }, [graphs])
+  }, [])
 
   const deleteGraphItem : Function = (id): void => {
     const deletedItemIndex = graphs.findIndex((graph) => graph._id === id);

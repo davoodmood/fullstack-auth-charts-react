@@ -47,7 +47,7 @@ function Layout({children}: {children: React.ReactNode}) {
               if (!router.pathname.includes('signup') && !router.pathname.includes('signin') ) {
                 router.push('/signin')
               } else {
-                  // router.push('/')  ?? Error for the AUTH LOOP HAPPENED HERE :D
+                  // router.push('/')
                   return err
               }  
            }
